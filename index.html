@@ -89,6 +89,24 @@
       line-height: 1.4;
     }
 
+    /* ▼ 作例ブロック追加 */
+    .work-sample {
+      margin: 10px 0 14px;
+    }
+
+    .work-sample-title {
+      font-size: 0.8rem;
+      color: #555;
+      margin-bottom: 4px;
+    }
+
+    .work-sample-image {
+      display: block;
+      width: 100%;      /* 横幅に合わせて縮小 */
+      height: auto;     /* アスペクト比維持 */
+      border-radius: 10px;
+    }
+
     .infoRow {
       display: flex;
       justify-content: space-between;
@@ -157,6 +175,13 @@
         ゆるく楽しく。イラスト・3DCG・ゲーム制作など。<br />
         ・「Blender」で趣味の3DCG制作（フォトリアル系が多い）<br />
         ・PC88時代の8bitパソコンのゲームが好物<br />
+      </div>
+
+      <!-- ▼ 作例ブロック（テキスト＋画像） -->
+      <div class="work-sample">
+        <div class="work-sample-title">ミニチュア風CGとか作ってます！</div>
+        <!-- sample.jpg をあなたの画像ファイル名に変更 -->
+        <img src="works_1" alt="X68000ミニチュア" class="work-sample-image">
       </div>
 
       <div class="info">
